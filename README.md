@@ -9,6 +9,7 @@ The Fokir-Personal Website Template is a complete solution for building a portfo
 Tools:
 1) HTML 5
 2) CSS
+
    (Only!!)
 
 Key Features:
