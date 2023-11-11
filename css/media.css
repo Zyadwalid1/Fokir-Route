@@ -1,0 +1,308 @@
+/* X-Small Screens */
+@media screen and (max-width: 450px) {
+    .container {
+      width: 100% ;
+    }
+  }
+  
+  /* X-Small Screens */
+  @media screen and (max-width: 767px) {
+    /* General Media Style */
+    .container {
+      width: 450px;
+      padding: 0px;
+    }
+  
+    .title h2 {
+      font-size: 32px;
+    }
+    /* Home Section */
+    .navbarlinks {
+      display: none;
+    }
+  
+    .dash-icon {
+      display: block;
+    }
+  
+    .homecontent h4 {
+      font-size: 14px;
+    }
+  
+    .homecontent h1 {
+      font-size: 38px;
+    }
+  
+   .developer {
+      width: 70px;
+    }
+  
+     @keyframes width { 
+      0% {
+        width: 70px;
+      }
+  
+      4.16666% {
+        width: 0;
+      }
+  
+      16.6666% {
+        width: 0;
+      }
+  
+      20.8333% {
+        width: 70px;
+      }
+  
+      33.3333% {
+        width: 70px;
+      }
+  
+      37.4999% {
+        width: 0;
+      }
+  
+      49.9999% {
+        width: 0;
+      }
+  
+      54.1666% {
+        width: 70px;
+      }
+  
+      66.6666% {
+        width: 70px;
+      }
+  
+      70.8333% {
+        width: 0px;
+      }
+  
+      83.3333% {
+        width: 0px;
+      }
+  
+      87.5% {
+        width: 70px;
+      }
+  
+      100% {
+        width: 70px;
+      }
+    } */
+  
+    /* About Section */
+    .aboutimg {
+      width: 100%;
+    }
+  
+    .imgborder {
+      width: 100%;
+      border: none;
+    }
+  
+    .mainaboutimg {
+      left: 0px;
+      top: 0px;
+    }
+  
+    .aboutcontent {
+      width: 100%;
+      margin-top: 30px;
+      padding: 0px 0px;
+    }
+  
+    .aboutcontent h2 {
+      margin-bottom: 25px;
+    }
+  
+    .aboutcontent p {
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+    }
+  
+    .aboutcontent ul li {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  
+    .aboutcontent a {
+      padding: 8px 10px;
+    }
+    /* Services Section */
+    .item1 {
+      width: 100%;
+    }
+    /* Portfolio Section */
+    .portfolio .item2 {
+      width: 100%;
+    }
+    /* Testimonial Section */
+    .Testimonial{
+        height: 570px;
+    }
+    .item3 {
+      width: 100%;
+      padding: 0px 15px;
+      margin-bottom: 30px;
+    }
+  
+    .item3 h3 {
+      margin-bottom: 5px;
+    }
+    /* Feedback Section */
+    .feedsection{
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .feedcontent h3 {
+      font-size: 26px;
+    }
+  
+    .feedimg {
+      width: 25%;
+      margin: 12px 135px;
+    }
+  
+    .feedcontent {
+      padding: 0;
+      width: 50%;
+      float: left;
+    }
+  
+    .feedback::after {
+      left: -38%;
+      top: -28%;
+    }
+    /* Blog Section */
+    .item4 {
+      width: 100%;
+      padding: 0px 15px;
+      margin-bottom: 30px;
+    }
+  
+    .blogcontent h3 a {
+      font-size: 16px;
+    }
+  
+    /* Contact Section */
+    .form {
+      width: 100%;
+    }
+  
+    .row1 {
+      width: 100%;
+    }
+  }
+  
+  /* Small Screens */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* General Media Style */
+    .container {
+      width: 750px;
+    }
+    /*About Section */
+    .imgborder {
+      width: 100%;
+      border: none;
+    }
+  
+    .mainaboutimg {
+      left: 0px;
+      top: 0px;
+    }
+  
+    .aboutcontent {
+      padding: 0px 0px;
+    }
+  
+    .aboutcontent h2 {
+      margin-bottom: 15px;
+    }
+  
+    .aboutcontent p {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .aboutcontent ul li {
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+    /* Services Section */
+    .item1 {
+      width: 50%;
+    }
+    /* Portfolio Section */
+    .item2 {
+      width: 50%;
+    }
+    /* Feedback Section */
+    .feedsection {
+      width: 100%;
+    }
+    /* Blog Section */
+    .blogcontent {
+      padding: 12px;
+    }
+  
+    .blogcontent h3 a {
+      font-size: 18px;
+    }
+    /* Contact Section */
+    .form {
+      width: 100%;
+    }
+  }
+  
+  /* Meduim Screens */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /*General Media Style */
+    .container {
+      width: 970px;
+    }
+    /*About Section */
+    .aboutimg {
+      width: 35%;
+    }
+  
+    .imgborder {
+      width: 100%;
+    }
+  
+    .aboutcontent {
+      width: 65%;
+      padding: 0px 50px;
+    }
+  
+    .aboutcontent h2 {
+      margin-bottom: 20px;
+    }
+  
+    .aboutcontent p {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .aboutcontent ul li {
+      margin-bottom: 15px;
+    }
+  
+
+    /* Feedback Section */
+    .feedsection {
+      width: 620px;
+    }
+  
+    .feedsection::after {
+      left: -31%;
+      top: -31%;
+    }
+  }
+  
+  /* Large Screens  No Media Style Needed */
+
+
